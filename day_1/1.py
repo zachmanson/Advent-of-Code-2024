@@ -1,6 +1,6 @@
 import os
 dir = os.path.dirname(os.path.abspath(__file__))
-file_path = os.path.join(dir, "1.txt")
+file_path = os.path.join(dir, "input.txt")
 
 with open(file_path, 'r') as reader:
     lines = [line.rstrip('\n') for line in reader]
