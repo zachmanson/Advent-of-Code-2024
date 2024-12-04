@@ -30,7 +30,7 @@ print(xmas_count)
 #I like to keep my part 1 answer as is so I will rewrite a lot of this 
 #A always has to be in the center, check for MS across both diagonals
 
-def is_x_mas(grid: list, x, y) -> bool:
+def is_x_mas(grid: list, x: int, y: int) -> bool:
     diagonals = [
         ((-1, -1), (1, 1)),
         ((-1, 1), (1, -1))
